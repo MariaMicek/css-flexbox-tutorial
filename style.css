@@ -14,22 +14,22 @@ body{
     display: flex;
     background-color: #fff;
     flex-wrap: wrap;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    height: 500px;
 }
 .box{
-    height: 100px;
-    flex: 1;
+    //width: 100px;
+    flex: 0 0 100px;
 }
 .one{
-    background-color: red;
-    flex-basis: 100px;
+    background-color: red
 }
 .two{
     background-color: blue;    
-    flex-basis: 200px;
 }
 .three{
     background-color: green;
-    flex-basis: 300px;
 }
 
 
